@@ -1,0 +1,15 @@
+  <span *ngIf="cat">
+    <thead>
+      <tr>
+        <th scope="col">{{cat.title}}</th>
+        <th scope="col">{{cat.sum}}</th>
+        <th scope="col">{{cat.final}}</th>
+        <th scope="col">cat.add</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let sub of cat.subs">
+      <app-sub [sub]="sub"></app-sub>
+
+    </tbody>
+  </span>
+

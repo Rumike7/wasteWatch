@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "wastewatch-cea81"
+  },
+  "targets": {
+    "wastewatch-cea81": {
+      "hosting": {
+        "wasteWatch": [
+          "wastewatch-cea81"
+        ]
+      }
+    }
+  }
+}
